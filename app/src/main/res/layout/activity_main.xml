@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.abnd.mdiaz.appportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/app_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity=""
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_app_1"
+            style="@style/basic_button_style"
+            android:text="@string/app_1_name" />
+
+        <Button
+            android:id="@+id/btn_app_2"
+            style="@style/basic_button_style"
+            android:layout_marginTop="6dp"
+            android:text="@string/app_2_name" />
+
+        <Button
+            android:id="@+id/btn_app_3"
+            style="@style/basic_button_style"
+            android:layout_marginTop="6dp"
+            android:text="@string/app_3_name" />
+
+        <Button
+            android:id="@+id/btn_app_4"
+            style="@style/basic_button_style"
+            android:layout_marginTop="6dp"
+            android:text="@string/app_4_name" />
+
+        <Button
+            android:id="@+id/btn_app_5"
+            style="@style/basic_button_style"
+            android:layout_marginTop="6dp"
+            android:text="@string/app_5_name" />
+
+        <Button
+            android:id="@+id/btn_app_6"
+            style="@style/basic_button_style"
+            android:layout_marginTop="6dp"
+            android:text="@string/app_6_name" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
